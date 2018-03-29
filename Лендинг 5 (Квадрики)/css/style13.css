@@ -1,0 +1,466 @@
+*, *:before, *after {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+}
+html{
+	font-size: 16px;
+	min-height: 100%;
+	box-sizing: border-box;
+}
+header{
+	height: 100vh;
+	background: url(../img/bgh.png) no-repeat center;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.main{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+}
+.main div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main div a{
+	margin-right: 25px;
+}
+.phone{
+	font-family: Montserrat;
+	color:  #92a1a5;
+	font-size: 0.875em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+}
+#bar{
+	cursor: pointer;
+	height: auto;
+	position: relative;
+	
+}
+.main-second a {
+	text-decoration: none;
+	border-bottom: 0.01px #fff solid;
+	font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 1em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	transition: 0.5s;
+}
+.btn{
+	color: #fff;
+	font-size: 23rem;
+}
+.main-second a:hover{
+	color: purple;
+	border-color: purple;
+}
+.phantom-parent{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 80%;
+	justify-content: center;
+}
+.bg{
+	background: #fff;
+	width: 350px;
+	height: 350px;
+	border-radius: 175px;
+	border:solid #fff 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bg img{
+	transform: scale(1.4);
+	width: 400px;
+	height: auto;
+}
+.phantom{
+	text-align: left;
+	transform: translate(-170px,0);
+	
+}
+.phantom h1{
+	color:  #000000;
+	font-size: 3.75em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	margin: 0;
+}
+.phantom p{
+	color:  #92a1a5;
+	font-size: 0.875em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+}
+.scroll-down{
+	color:  #000000;
+	font-size: 1.125em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	transform: rotate(-90deg);
+	align-self: flex-start;
+	margin-left: 3%;
+	margin-bottom: 100px;
+}
+.sec2{
+	display: flex;
+	min-height: 50vh;
+	width: 100%;
+}
+.tap-to-fly{
+	flex-grow: 1;
+	background: url(../img/Photo.png) no-repeat center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+.tap-to-fly div{
+	box-sizing: content-box;
+	align-self: center;
+	padding-left: 100px;
+}
+.fly-higher{
+	display: flex;
+	flex-grow: 5;
+	background: url(../img/babay.png) no-repeat center;
+	background-size: cover;
+}
+.fly1{
+	flex-grow: 1;
+}
+.fly1 div{
+	padding-left: 50px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	background-color:  rgba(0, 0, 0, 0.65);
+}
+.fly1 div h2{
+	color:  #ffffff;
+    font-size: 3em;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+.vie{
+	flex-grow: 7;
+	background-color: none;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+.tap-to-fly div h3{
+	color:  #000000;
+	font-size: 3em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	margin: 0;
+}
+.tap-to-fly div p{
+	color:  #92a1a5;
+	font-size: 0.875em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+}
+.vie button{
+	background-color:  #ffffff;
+	height: 47px;
+	width: 132px;
+	border: solid #fff 1px;
+	border-radius: 50px;
+	color:  #000000;
+	font-size: 1em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	transform: rotate(-90deg);
+}
+.features{
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.features-h3{
+	color:  #000000;
+	font-size: 3em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 1.25;
+	margin-bottom: 60px;
+}
+.container-mum{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	align-items: center;
+
+}
+.container{
+	width: 650px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tech{
+	text-align: center;
+	align-items: center;
+}
+.tech a{
+	margin-top: 40px;
+	display: block;
+	text-decoration: none;
+	color:  #000000;
+	font-size: 1.5em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 2;
+	transition: 0.5s;
+}
+.tech a:hover{
+	color: red;
+}
+.sec3{
+	display: flex;
+	height: 50vh;
+	position: relative;
+}
+.radio{
+	flex-grow: 2;
+	background: url(../img/radio.png) no-repeat center;
+	background-size: cover;
+	
+}
+.new-generation{
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	background: url(../img/Mars1.png) no-repeat center;
+	background-size: cover;
+	justify-content: center;
+}
+.new-generation div h3{
+	color:  #ffffff;
+	font-size: 4em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 1.109;
+	margin-bottom: 30px;
+}
+.span{
+	color:  #ff343d;
+	font-size: 1em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 1.109;
+}
+.new-generation div button{
+	color:  #ffffff;
+	font-size: 1.125em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	padding: 15px 30px 15px 30px;
+	border: solid 1px #3b3b3b;
+	background: 0;
+	border-radius: 30px;
+	transition: 0.5s;
+	margin-bottom: 50px;
+}
+.new-generation div button:hover{
+	color: yellow;
+	border-color: yellow;
+}
+.sec4{
+	display: flex;
+	height: 100vh;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 70px;
+	
+}
+.sec4 div{
+	align-self: center;
+}
+.sec4 div h3{
+	color:  #232323;
+	font-size: 4em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 1.109;
+}
+.sec4 img{
+	height: auto;
+	width: 708px;
+}
+.sec4 div button{
+	color:  #000;
+	font-size: 1.125em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	padding: 15px 30px 15px 30px;
+	border: solid 1px #eff2f6;;
+	background: 0;
+	border-radius: 30px;
+	transition: 0.5s;
+	margin-bottom: 50px;
+}
+.sec4 div button:hover{
+	color: purple;
+	border-color: purple;
+}
+.sec5{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background: url(../img/boats.png) no-repeat center;
+	background-size: cover;
+	height: 100vh;
+}	
+.sec5 div{
+	width: 95%;
+	height: 45vh;
+	text-align: center;
+}
+.sec5 div h3{
+	color:  #ffffff;
+	font-size: 4.3em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 1.109;
+	margin-bottom: 0;
+}
+.sec5 div button{
+	background-color:  #ffffff;
+	padding: 10px 20px 10px 20px;
+	color:  #318f76;
+	font-size: 1em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	border-radius: 50px;
+	border: solid #fff 1px;
+	margin-top: 40px;
+	transition: 0.7s;
+}
+.sec5 div button:hover{
+	background: 0;
+	color: purple;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(../img/footer.png) no-repeat center;
+	background-size: cover;
+	height: 60vh;
+}
+footer div{
+	text-align: center;
+}
+footer div p{
+	color:  #92a1a5;
+	font-size: 0.875em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 2.143;
+}
+
+
+
+
+
+.menu{
+	display: block;
+	box-sizing: border-box;
+	background: #28292f;
+	width: 0%;
+	height: 100vh;
+	z-index: 9;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	padding-top: 50px;
+	animation-fill-mode: forwards;
+	animation-duration: 1s;  
+}
+
+@keyframes anim-menu-l {
+	100% {
+		width: 19%;
+	}
+}
+@keyframes anim-menu-r {
+	100% {
+		width: 0%;
+	}
+}
+
+#remove{
+	cursor: pointer;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	z-index: 10;
+	opacity: 0;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes o1 {
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes o2 {
+	100% {
+		opacity: 0;
+	}
+}
+.main-element{
+	margin: auto;
+	width: 0%;
+	height: 6vh;
+	text-align: center;
+	border-bottom: solid grey 1px; 
+	padding-top: 7px;
+
+
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes m1 {
+	100% {
+		width: 90%;
+	}
+}
+
+@keyframes m2 {
+	100% {
+		width: 0;
+	}
+}
+
+.main-element a{
+	color: #fff;
+	font-size: 0em;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all 1s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes f1{
+	100% {
+		font-size: 1.5em;
+	}
+}
+@keyframes f2{
+	100% {
+		font-size: 0;
+	}
+}
+
+
+.main-element a:hover{
+	color: red;
+}
