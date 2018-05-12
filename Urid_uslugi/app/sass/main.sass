@@ -167,7 +167,7 @@ header
 			width: 95%
 		h1
 			// Style for "юридически"
-			width: 449px
+			max-width: 449px
 			color: #ffffff
 			font-family: "Proxima Nova - Black"
 			font-size: 4em
@@ -176,11 +176,14 @@ header
 			text-transform: uppercase	
 			text-align: left
 			letter-spacing: 1px
+			
 			@media screen and (max-width: 768px), only screen and (max-device-width : 768px)
 				font-size: 2em
+			@media screen and (max-width: 372px), only screen and (max-device-width : 372px)	
+				line-height: 30px
 		p				
 			// Style for "Юридическа"
-			width: 388px
+			max-width: 388px
 			height: 149px
 			color: #ffffff
 			font-family: "Proxima Nova"
@@ -205,6 +208,7 @@ header
 		#persefona
 			position: relative
 			top: 100px
+			
 			@media screen and (max-width: 768px), only screen and (max-device-width : 768px)	
 				width: 200px
 				height: auto
@@ -246,6 +250,7 @@ header
 			margin-bottom: 0px
 			margin-right: 30px
 			margin-left: 10px
+
 			@media screen and (max-width: 1184px), only screen and (max-device-width : 1184px)
 				font-size: 3em
 			@media screen and (max-width: 596px), only screen and (max-device-width : 596px)
@@ -262,6 +267,7 @@ header
 			margin-bottom: 100px
 			margin-right: 30px
 			margin-left: 10px
+
 			@media screen and (max-width: 1184px), only screen and (max-device-width : 1184px)
 				font-size: 1.4em
 			@media screen and (max-width: 596px), only screen and (max-device-width : 596px)
@@ -315,7 +321,10 @@ header
 					@media screen and (max-width: 866px), only screen and (max-device-width : 866px)
 						left: 9%
 					@media screen and (max-width: 596px), only screen and (max-device-width : 596px)
-						left: 17%	
+						left: 17%
+						font-size: .8em	
+					@media screen and (max-width: 392px), only screen and (max-device-width : 392px)	 
+						font-size: .65em
 				.h3_active
 					background: #c69c6d	
 			.hide_cont
@@ -442,24 +451,24 @@ header
 			text-transform: uppercase
 			@media screen and (max-width: 722px), only screen and (max-device-width : 722px)
 				text-align: left
-		.cont_of_coment:nth-child(3)
-			position: relative
-			left: 50px
-			@media screen and (max-width: 722px), only screen and (max-device-width : 722px)
-				transform: scale(0.8)
-				text-align: center
-				position: relative
-				left: -90px
-				margin-bottom: -40px
-			@media screen and (max-width: 474px), only screen and (max-device-width : 474px)
-				transform: scale(0.7)
-			.coment
-				clip-path: polygon(0 0, 100% 0%, 100% 100%, 11% 100%)	
-				margin-right: -50px
-				width: 505px
-				height: 140px
+		// .cont_of_coment:nth-child(3)
+		// 	position: relative
+		// 	left: 50px
+		// 	@media screen and (max-width: 722px), only screen and (max-device-width : 722px)
+		// 		transform: scale(0.8)
+		// 		text-align: center
+		// 		position: relative
+		// 		left: -90px
+		// 		margin-bottom: -40px
+		// 	@media screen and (max-width: 474px), only screen and (max-device-width : 474px)
+		// 		transform: scale(0.7)
+		// 	.coment
+		// 		clip-path: polygon(0 0, 100% 0%, 100% 100%, 11% 100%)	
+		// 		margin-right: -50px
+		// 		width: 505px
+		// 		height: 140px
 				
-				padding-right: 30px
+		// 		padding-right: 30px
 		.cont_of_coment
 			width: 70%
 			display: flex
@@ -489,6 +498,7 @@ header
 				text-align: left
 				width: 505px
 				padding-left: 60px
+				padding-right: 60px
 				height: 140px
 				h6
 					width: 277px
@@ -498,7 +508,7 @@ header
 					font-weight: 300
 					margin: 0
 				p
-					width: 377px
+					max-width: 350px
 					color: #ffffff
 					font-family: "Proxima Nova"
 					font-size: 1em
@@ -514,17 +524,20 @@ header
 		h1 
 			color: #ffffff
 			font-family: "Proxima Nova"
-			font-size: 56px
+			font-size: 4em
 			font-weight: 300
 			line-height: 24.3px
 			text-transform: uppercase
 			text-align: left
+			@media screen and (max-width: 492px), only screen and (max-device-width : 492px)	 
+				font-size: 2em
 .map
 	min-height: 500px
 	text-align: center
 	background: url(../img/map.png) no-repeat
 	background-size: cover
 	border-bottom: 1px solid #472e62
+	width: 100%
 	.cont_map
 		width: 67%
 		text-align: right
@@ -544,6 +557,9 @@ header
 			box-shadow: 10px 10px 0px 0px rgba(89,74,175,1)
 			@media screen and (max-width: 1004px), only screen and (max-device-width : 1004px)	 
 				top: 0
+			@media screen and (max-width: 492px), only screen and (max-device-width : 492px)	 
+				width: 300px
+				padding: 15px 20px	
 			h3
 				color: #594aaf
 				font-family: "Proxima Nova"
@@ -611,7 +627,7 @@ footer
 		margin: auto
 		width: 67%
 		@media screen and (max-width: 1004px), only screen and (max-device-width : 1004px)	 
-			width: 98%
+			width: 90%
 		.row
 			display: flex
 			align-items: center
@@ -655,7 +671,7 @@ footer
 					position: relative
 					display: inline-block
 					margin-bottom: 0
-					@media screen and (max-width: 738px), only screen and (max-device-width : 738px)	
+					@media screen and (max-width: 752px), only screen and (max-device-width : 752px)	
 						display: block
 						width: 45%			
 					.phone
@@ -688,9 +704,12 @@ footer
 							text-align: center
 							margin-top: 0
 							margin-bottom: 0
-						@media screen and (max-width: 572px), only screen and (max-device-width : 572px)
+						@media screen and (max-width: 752px), only screen and (max-device-width : 752px)
+							margin-left: 10px
+							margin-top: -20px
+						@media screen and (max-width: 560px), only screen and (max-device-width : 560px)
 							margin-left: 20px
-							margin-top: -20px		
+										
 .visible
 	opacity: 1
 .hibben
@@ -733,6 +752,10 @@ footer
 		box-shadow: 10px 10px 0px 0px rgba(89,74,175,1)
 		@media screen and (max-width: 1004px), only screen and (max-device-width : 1004px)	 
 			top: 0
+		@media screen and (max-width: 492px), only screen and (max-device-width : 492px)	 
+			width: 300px
+			box-shadow: 0
+			padding: 15px 20px	
 		h3
 			color: #594aaf
 			font-family: "Proxima Nova"
@@ -742,6 +765,9 @@ footer
 			text-transform: uppercase
 			text-align: right
 			margin-top: 0
+			@media screen and (max-width: 492px), only screen and (max-device-width : 492px)	 
+				margin-bottom: 5px
+				margin-top: 15px
 		.text
 			color: #666666
 			font-family: "Proxima Nova"
