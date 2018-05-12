@@ -755,6 +755,14 @@ header .urid_uslugi #persefona {
   }
 }
 
+@media screen and (max-width: 370px), only screen and (max-device-width: 370px) {
+  .section_4 .cont_4 .cont_of_coment {
+    -webkit-transform: scale(0.65);
+        -ms-transform: scale(0.65);
+            transform: scale(0.65);
+  }
+}
+
 .section_4 .cont_4 .cont_of_coment img {
   width: 189px;
   height: 189px;
