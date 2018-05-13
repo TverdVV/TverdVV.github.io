@@ -23,7 +23,7 @@
 #burger {
   display: none;
   color: #ffffff;
-  z-index: 999;
+  z-index: 9999999;
   position: absolute;
   top: 69px;
   right: 5%;
@@ -36,6 +36,12 @@
 @media screen and (max-width: 1068px), only screen and (max-device-width: 1068px) {
   #burger {
     display: block;
+  }
+}
+
+@media screen and (orientation: landscape), only screen and (orientation: landscape) {
+  #burger {
+    right: 1%;
   }
 }
 
@@ -55,6 +61,14 @@
   -o-transition: .3s;
   transition: .3s;
   margin-left: 100%;
+}
+
+@media screen and (orientation: landscape), only screen and (orientation: landscape) {
+  .menu-phone {
+    top: 0px;
+    z-index: 99999;
+    height: 100vh;
+  }
 }
 
 .menu-phone .cont_of_phone {
