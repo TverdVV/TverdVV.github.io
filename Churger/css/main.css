@@ -245,6 +245,9 @@ header .scroll-down {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .about_us .row .col-md-6:nth-child(1) img {
   width: 530px;
@@ -905,6 +908,10 @@ footer .row .logo a small {
     top: 0;
     right: 0;
   }
+  .about_us .row .col-md-6:nth-child(1) img {
+    width: 480px;
+    height: auto;
+  }
   .about_us .row .col-md-6:nth-child(2) .content_about_us h2 {
     margin-top: 17px;
   }
@@ -953,6 +960,10 @@ footer .row .logo a small {
   }
   .about_us .row {
     width: 95%;
+  }
+  .about_us .row .col-md-6:nth-child(1) img {
+    width: 300px;
+    height: auto;
   }
 
   .services .cont-serv .row .content_serv h3 {
